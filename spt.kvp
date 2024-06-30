@@ -74,9 +74,9 @@ Meta.MetaConfigManifest=sptmetaconfig.json
 Meta.ConfigRoot=spt.kvp
 App.RootDir=./spt/
 Meta.DisplayImageSource=url:https://steamuserimages-a.akamaihd.net/ugc/315620766165797856/AC98BC675C5E11A7A396CA136DD8592A94803E53/?imw=460&imh=215&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false
-App.BaseDirectory=./spt/serverfiles/
-App.WorkingDir=serverfiles
-App.ExecutableWin=serverfiles\server.exe
+App.BaseDirectory=./spt/
+App.WorkingDir=./
+App.ExecutableWin=server.exe
 App.ExecutableLinux=/usr/bin/wine
 App.LinuxCommandLineArgs="./server.exe" 
 App.Ports=@IncludeJson[sptports.json]
